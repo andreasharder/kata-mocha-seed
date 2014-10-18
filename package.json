@@ -1,0 +1,31 @@
+{
+  "name": "kata-mocha-seed",
+  "version": "1.0.0",
+  "description": "Seed project for a tdd kata with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd --recursive ./tests",
+    "watch": "mocha -w -u bdd --recursive ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreasharder/kata-mocha-seed"
+  },
+  "keywords": [
+    "TDD",
+    "JavaScript",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "Andreas Harder",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "chai-spies": "^0.5.1",
+    "mocha": "^1.21.5"
+  },
+  "bugs": {
+    "url": "https://github.com/andreasharder/kata-mocha-seed/issues"
+  },
+  "homepage": "https://github.com/andreasharder/kata-mocha-seed"
+}
